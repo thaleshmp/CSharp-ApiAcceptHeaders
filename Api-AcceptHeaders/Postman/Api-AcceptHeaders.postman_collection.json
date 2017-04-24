@@ -1,0 +1,45 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Api-AcceptHeaders",
+		"_postman_id": "df3c68b5-4905-f23d-a020-20ff4e092a24",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "XML",
+			"request": {
+				"url": "http://localhost:53267/api/values/get",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "JSON",
+			"request": {
+				"url": "http://localhost:53267/api/values/get",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
